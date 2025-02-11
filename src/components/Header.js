@@ -13,11 +13,11 @@ export default function Header() {
                     }} variant='h2'>Tic Tac Toe</Typography>
                 </Grid>
                 <Grid item xs={6}>
-                    <Typography variant='h4'>Player 1: X</Typography>
+                    <Typography variant='h4'>Player 1:X</Typography>
 
                 </Grid>
                 <Grid item xs={6}>
-                    <Typography variant='h4'>Player 2: O</Typography>
+                    <Typography variant='h4'>Player 2:O</Typography>
 
                 </Grid>
 
