@@ -54,7 +54,7 @@ export default function Grid1() {
                 marginTop: "-30px",
                 marginBottom: "30px"
 
-            }}>{game.player1.turn ? "Player1" : "Player2"} turn</Typography>
+            }}>{game.player1.turn ? "X" : "O"} turn</Typography>
 
 
             <Grid container spacing={2} style={{ color: "white", textAlign: "center" }}>

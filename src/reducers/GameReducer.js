@@ -21,7 +21,7 @@ export default function reducer(state, action) {
             const [a, b, c] = combination;
 
             if (board[a] && board[a] === board[b] && board[a] == board[c]) {
-                return { ...state, dialog: true, winner: state.player1.turn ? "Player1 is the winner" : "Player2 is the winner" }
+                return { ...state, dialog: true, winner: state.player1.turn ? "X is the winner" : "O is the winner" }
             }
 
         }
